@@ -1,0 +1,224 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* First Header - Purple Top Header with Free Shipping, Language Option, FAQ Button, and Need Help Button */
+.top-header {
+  background-color: rgba(39, 35, 67, 1) ;/* Purple */
+  color: white;
+  display: flex;
+  justify-content: space-between; /* Spread the content to the left and right */
+  align-items: center;
+  padding: 10px 200px;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif; /* Apply Inter font here */
+}
+
+/* Free Shipping Text (on the left side) */
+.free-shipping {
+  font-size: 14px;
+  right: 0;
+  /* No margin here, it's already aligned to the left */
+  
+}
+.language-dropdown{
+background-color:rgba(39, 35, 67, 1) ;
+margin-left: 50%;
+color: white;
+}
+/* Ensure no gap between FAQ, Language, and Need Help buttons */
+.header-button {
+  display: flex;
+  align-items: center;
+  gap: 0; /* No gap between buttons */
+}
+
+.header-button button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 0; /* Ensure there's no margin */
+}
+
+
+/* FAQ Button Specific Styling (No icon) */
+.faq-btn {
+  font-size: 14px;
+}
+
+/* Need Help Button Specific Styling */
+.help-btn {
+  font-size: 14px;
+}
+
+/* Image Icon for Need Help Button */
+.help-icon {
+  width: 16px; /* Set the size of the icon */
+  height: 16px; /* Set the size of the icon */
+  margin-right: 5px; /* Gap between the icon and text */
+  display: inline-block;
+}
+
+
+
+/* Second Header - Main Header */
+.second-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+  background-color: rgba(240, 242, 243, 1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 40px;
+  height: auto;
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Cart Container */
+.cart-container {
+  position: relative; /* Allows the badge to be positioned */
+}
+
+.cart-button {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px; /* Space between icon and text */
+}
+
+.cart {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Cart Count Badge */
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #ff0000; /* Red background for the badge */
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 6px;
+  min-width: 20px;
+  text-align: center;
+}
+/* Third Header - Contact Info and Navigation Links */
+.third-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+  background-color:white;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  color: #333;
+  
+}
+
+.contact-info {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  background-color: transparent;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.nav-button:hover {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}
+
+/* Divider Line */
+.header-divider {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(189, 189, 189);
+  margin-top: 10px;
+}
+/* Global Reset for specific elements */
+html, body, div, section, header, footer, main {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:white; /* Background color for the page */
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 70%; /* Makes the banner responsive */
+margin-left: 15%;
+  height: 850px;
+  background-color: rgba(240, 242, 243, 1);
+
+.banner-text {
+  color:rgba(39, 35, 67, 1);
+  max-width: 50%;
+  text-align: start;
+  text-size-adjust: 60px;
+  font-weight: 700;
+}
+
+.banner-text h2 {
+  font-size: 48px;
+  font-weight: bold;
+  text-size-adjust: 60px;
+  font-weight: 700;
+}
+.Footer{
+  display: flex;
+}
+
+}

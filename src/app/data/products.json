@@ -1,0 +1,94 @@
+[
+  {
+    "id": "1",
+    "name": "Library Stool Chair",
+    "price": "$49.99",
+    "image": "/products/product1.png"
+  },
+  {
+    "id": "2",
+    "name": "Library Stool Chair",
+    "price": "$59.99",
+    "image": "/products/product2.png"
+  },
+  {
+    "id": "3",
+    "name": "Library Stool Chair",
+    "price": "$39.99",
+    "image": "/products/product3.png"
+  },
+  {
+    "id": "4",
+    "name": "Library Stool Chair",
+    "price": "$49.99",
+    "image": "/products/product4.png"
+  },
+  {
+    "id": "5",
+    "name": "Library Stool Chair",
+    "price": "$59.99",
+    "image": "/products/product5.png"
+  },
+  {
+    "id": "6",
+    "name": "Library Stool Chair",
+    "price": "$39.99",
+    "image": "/products/product6.png"
+  },
+  {
+    "id": "7",
+    "name": "Library Stool Chair",
+    "price": "$49.99",
+    "image": "/products/product7.png"
+  },
+  {
+    "id": "8",
+    "name": "Library Stool Chair",
+    "price": "$59.99",
+    "image": "/products/product8.png"
+  },
+  {
+    "id": "9",
+    "name": "Library Stool Chair",
+    "price": "$39.99",
+    "image": "/products/product9.png"
+  },
+  {
+    "id": "10",
+    "name": "Library Stool Chair",
+    "price": "$49.99",
+    "image": "/products/product1.png"
+  },
+  {
+    "id": "11",
+    "name": "Library Stool Chair",
+    "price": "$59.99",
+    "image": "/products/product2.png"
+  },
+  {
+    "id": "12",
+    "name":"Library Stool Chair",
+    "price": "$39.99",
+    "image": "/products/product3.png"
+
+    
+  },
+  {
+    "id": "13",
+    "image": "/products/product10.png", 
+    "name": "The Elegant Loveseat",
+    "price": "$120.00"
+  },
+  {
+    "id": "14",
+   " image": "/products/product11.png",
+    "title": "The Cozy Recliner",
+    "price": "$140.00"
+  },
+  {
+    "id": "15",
+    "image": "/products/product10.png", 
+   " title": "The Modern Ottoman",
+    "price": "$75.00"
+  }
+]
